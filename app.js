@@ -96,7 +96,7 @@ function showError(error) {
 
 //get weather
 function getWeather(latitude, longitude) {
-  let apiCurrent = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
+  let apiCurrent = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
   let apiDaily = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&
   exclude={part}&appid=${key}
   `;
