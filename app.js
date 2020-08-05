@@ -1,5 +1,3 @@
-// Tutorial by http://youtube.com/CodeExplained
-// api key : a35ddb4c8b62f4433d306bafcbd751d1
 const iconElement = document.querySelector(".weather-icon");
 const tempElement = document.querySelector(".temperature-value p");
 const descElement = document.querySelector(".temperature-description p");
